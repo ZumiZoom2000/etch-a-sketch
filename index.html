@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>etch a sketch</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="size-form">
+            <label for="size">choose size of your grid:</label>
+            <input type="number" name="size" id="size" placeholder="size of grid" max="100" min="20">
+        </div>
+        <div class="color-form">
+            <label for="color-select">choose your color palette:</label>
+            <select name="color-select" id="color-select">
+                <option value="red">RED</option>
+                <option value="blue">BLUE</option>
+                <option value="green">GREEN</option>
+            </select>
+        </div>
+        <div class="start">
+            <button id="start-button">START</button>
+        </div>
+    </header>
+    <section class="container">
+    </section>
+</body>
+
+</html>
